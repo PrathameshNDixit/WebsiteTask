@@ -1,0 +1,97 @@
+.navbar-brand {
+    margin-left: 70px;
+}
+.navbar{
+    background-color: #fff;
+}
+body{
+    background-color: #eee;
+}
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    transition-duration: 0.5s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+.card-1,.card-2,.card-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.466);
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container{
+    margin-block: 50px;
+    background-color: #eee;
+}
+.icon-box{
+    background-color: #0097e6;
+    width: 80px;
+    margin-inline: auto;
+    color: white;
+    border-radius: 50%;
+    width: 75px;
+    font-size: 2.2rem;
+    transition: 0.5s;
+    padding: 10px;
+}
+.card-1:hover{
+    background-color: #007bff;
+    color: white;
+}
+.card-1:hover .icon-box{
+    background-color: white;
+    color: #007bff;
+}
+.card-2:hover{
+    background-color: #007bff;
+    color: white;
+}
+.card-2:hover .icon-box{
+    background-color: white;
+    color: #007bff;
+}
+.card-3:hover{
+    background-color: #007bff;
+    color: white;
+}
+.card-3:hover .icon-box{
+    background-color: white;
+    color: #007bff;
+}
+.h4{
+    margin-block: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .navbar-brand img{
+        height: 50px;
+    }
+    .card-1,.card-2,.card-3{
+        margin-block: 10px;
+    }
+}
+.form-container{
+    background-color: #fff;
+    padding: 30px 50px;
+    margin-inline: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 10px 0 10px;
+    gap: 20px;
+}
