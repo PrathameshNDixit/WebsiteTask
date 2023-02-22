@@ -17,7 +17,7 @@ body{
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: #0097e6;
 }
 .card-1,.card-2,.card-3{
     text-align: center;
@@ -43,28 +43,28 @@ body{
     padding: 10px;
 }
 .card-1:hover{
-    background-color: #007bff;
+    background-color: #0097e6;
     color: white;
 }
 .card-1:hover .icon-box{
     background-color: white;
-    color: #007bff;
+    color: #0097e6;
 }
 .card-2:hover{
-    background-color: #007bff;
+    background-color: #0097e6;
     color: white;
 }
 .card-2:hover .icon-box{
     background-color: white;
-    color: #007bff;
+    color: #0097e6;
 }
 .card-3:hover{
-    background-color: #007bff;
+    background-color: #0097e6;
     color: white;
 }
 .card-3:hover .icon-box{
     background-color: white;
-    color: #007bff;
+    color: #0097e6;
 }
 .h4{
     margin-block: 10px;
