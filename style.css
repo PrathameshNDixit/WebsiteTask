@@ -117,9 +117,10 @@ body{
     border-bottom: 1px solid rgba(128, 128, 128, 0.137);
     font-weight: bolder;
     padding: 0;
+    transition: 0.5s;
 }
 .dropdown-menu li:hover{
-    border: 0;
+    border-color: #0097e6;
 }
 .dropdown-menu a{
     font-weight: 500;
