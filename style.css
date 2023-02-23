@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .navbar-brand {
     margin-left: 70px;
 }
@@ -12,7 +17,7 @@ body{
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     transition-duration: 0.5s;
 }
 
@@ -99,4 +104,33 @@ body{
     align-items: center;
     padding: 30px 10px 0 10px;
     gap: 20px;
+}
+.dropdown-menu{
+    border-top: 3px solid black;
+    border-radius: 0;
+    margin-block: 0;
+    padding: 0;
+    border-bottom: 0;
+    gap:0;
+}
+.dropdown-menu li{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+    font-weight: bolder;
+    padding: 0;
+}
+.dropdown-menu li:hover{
+    border: 0;
+}
+.dropdown-menu a{
+    font-weight: 500;
+    transition: 0.5s;
+}
+.dropdown-menu li:hover a{
+    background-color: #0097e6;
+    color: white;
+}
+.dropdown-menu ul{
+    border-bottom: 0;
+    padding: 0;
+    /* border-bottom: 0; */
 }
